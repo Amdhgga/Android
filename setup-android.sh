@@ -9,7 +9,7 @@ mkdir -p ~/android-x86
 cd ~/android-x86
 
 # Download Android-x86 (using version 7.1-r5 as it's more stable for emulation)
-wget https://github.com/android-x86/android-x86.github.io/releases/download/7.1-r5-iso/android-x86-7.1-r5.iso
+wget "https://downloads.sourceforge.net/project/android-x86/Release%209.0/android-x86_64-9.0-r2.iso?ts=gAAAAABnIKAUqCY54yeRISprscU6E50x2gGnQtFXDoNSxiM8TpSGid3ekSNIGvNpbgkEuaxD5yWzJPblQqc5KDsJBrIMUPpgzA%3D%3D&use_mirror=cyfuture&r=https%3A%2F%2Ftemp-mail.gg%2F"
 
 # Create a virtual disk for Android
 qemu-img create -f qcow2 android.img 8G
